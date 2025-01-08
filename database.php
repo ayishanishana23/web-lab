@@ -11,7 +11,7 @@ if ($connection){
 else{
  echo"could not connect";
 }
-$sql="insert into student(NAME,PHONE,EMAIL)values('Ameena','1234567890','ameenatrazak@gmail')";
+$sql="insert into student(NAME,PHONE,EMAIL)values('Ayisha','1234567890','ayishanishanakk@gmail')";
 mysqli_query($connection,$sql);
 mysqli_close($connection);
 ?>
