@@ -37,9 +37,9 @@
         }
 
         // Retrieve the form data and sanitize it
-        $name = mysqli_real_escape_string($connection, $_POST["name"]);
-        $phone = mysqli_real_escape_string($connection, $_POST["phone"]);
-        $email = mysqli_real_escape_string($connection, $_POST["email"]);
+        $name = ($connection, $_POST["name"]);
+        $phone = ($connection, $_POST["phone"]);
+        $email = ($connection, $_POST["email"]);
 
         // Validate the form data (additional checks can be added as needed)
         if (empty($name) || empty($phone) || empty($email)) {
